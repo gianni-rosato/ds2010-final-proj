@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ds2010-final-proj"
+version = "0.1.0"
+description = "Analyzing online shopping data to determine what affects a customer’s tendency to make a purchase."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ucimlrepo = {url = "https://files.pythonhosted.org/packages/87/7c/f5a400cc99a5365d153609ebf803084f78b4638b0f7925aa31d9abb62b8e/ucimlrepo-0.0.7.tar.gz"}
+numpy = {url = "https://files.pythonhosted.org/packages/25/ca/1166b75c21abd1da445b97bf1fa2f14f423c6cfb4fc7c4ef31dccf9f6a94/numpy-2.1.3.tar.gz"}
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.3"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
