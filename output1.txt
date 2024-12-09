@@ -33,7 +33,7 @@ Other                          85         0.188235
 Returning_Visitor           10551         0.139323
 
 Shopping Behavior Statistics:
-Average pages per session: 5.89
+Average page value: 5.89
 Average time spent: 1310.04 seconds
 Purchase rate: 15.47%
 

@@ -76,7 +76,7 @@ def explore_data(X, y, visitor_types):
 
     # Shopping behavior stats
     print("\nShopping Behavior Statistics:")
-    print(f"Average pages per session: {X['PageValues'].mean():.2f}")
+    print(f"Average page value: {X['PageValues'].mean():.2f}")
     print(f"Average time spent: {X['Administrative_Duration'].mean() + X['Informational_Duration'].mean() + X['ProductRelated_Duration'].mean():.2f} seconds")
     print(f"Purchase rate: {(y['Revenue'] == 1).mean():.2%}")
 
