@@ -1,32 +1,3 @@
-# DS2010 Final Project
-
-Analyzing online shopping data to determine what affects a customer’s tendency to make a purchase.
-
-## Running
-
-Poetry is used to manage dependencies. To install dependencies, run:
-
-```bash
-poetry install
-```
-
-To run the project, run:
-
-```bash
-poetry run python shop-data.py
-```
-
-The plots are saved in the `plots` directory.
-
-## Example Output
-
-Here's the output for out dataset using a logistic regression model, as of 3 December 2024:
-
-![output graph](docs/static/feature_importance.svg)
-
-Here's an example of the information printed to the terminal when the program is run:
-
-```txt
 Online Shopping Purchase Prediction Analysis
 ============================================
 
@@ -56,7 +27,7 @@ Name: proportion, dtype: float64
 
 Visitor Type Analysis:
                    Total Sessions  Conversion Rate
-VisitorType
+VisitorType                                       
 New_Visitor                  1694         0.249115
 Other                          85         0.188235
 Returning_Visitor           10551         0.139323
@@ -107,4 +78,3 @@ Recommendations for Retailers:
 - Focus on optimizing Month Nov: Impact score 0.325
 - Focus on optimizing Month Feb: Impact score 0.198
 - Focus on optimizing Month May: Impact score 0.134
-```
